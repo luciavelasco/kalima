@@ -1,7 +1,3 @@
-/*.App {*/
-/*text-align: center;*/
-/*}*/
-
 @keyframes reform {
     0% {
         height: 40vh;
@@ -62,10 +58,13 @@
 }
 
 @keyframes banner-transition {
-    from {
+    0% {
         background-color: #050439;
     }
-    to {
+    20% {
+        background-color: #050439;
+    }
+    100% {
         background-color: #C92C39;
     }
 }
@@ -88,45 +87,12 @@
     top: 60vh;
 }
 
-/* ------------------ SAND ------------------------ */
-/* https://codepen.io/z-/pen/bpxgWZ?editors=0110 */
-
-@keyframes sand {
-    0% {
-        opacity: 0;
-        left: 100vw;
-    }
-    20% { /* show and hint at moving */
-        opacity: 1;
-        /*transform: translateX(1000%);*/
-    }
-    100% {
-        opacity: 0;
-        left: -10vw;
-        /*transform: translateX(-1000%); !* Big sand particles move faster *!*/
-    }
-}
-
-.particle {
-    opacity: 0;
-    position: absolute;
-    background-color: rgba(33, 150, 243, 0.5);
-    animation: sand 3s ease-in;
-    border-radius: 100%;
-}
-
-/* ------------------------------------------------- */
-
 @keyframes name {
     0% {
         height: 0px;
         overflow: hidden;
     }
-    20% {
-        height: 0px;
-        overflow: hidden;
-    }
-    30% {
+    40% {
         height: 0px;
         overflow: hidden;
     }
