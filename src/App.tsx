@@ -4,18 +4,19 @@ import './App.css';
 // import * as logo from './logo.svg';
 // import * as portrait from '../public/portrait_goodwood.jpg';
 // import * as fullBody from '../public/rome_balcony.jpg';
+import * as sand from '../public/sand.png';
 
 class App extends React.Component {
   public render() {
     return (
       <div className="App">
-        <div class="banner">
-          <div class="sand"></div>
-          <!--   <img class="sand" src="https://png.pngtree.com/element_origin_min_pic/00/00/00/00568f573662e7b.jpg"></img> -->
-          <div class="building"></div>
-          <div class="happy-worker"></div>
-          <div class="logo-line"></div>
-          <div class="name">KALIMA</div>
+        <div className="banner">
+          <div className="sand"></div>
+          <img className="sand" src={sand}></img>
+          <div className="building"></div>
+          <div className="happy-worker"></div>
+          <div className="logo-line"></div>
+          <div className="name">KALIMA</div>
         </div>
         {/*<header className="App-header">*/}
           {/*<img src={logo} className="App-logo" alt="logo" />*/}
