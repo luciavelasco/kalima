@@ -14,9 +14,8 @@ export class LandingSection extends Component<{ sand: JSX.Element[] }> {
         <div className="sand">
           {...this.props.sand}
         </div>
-        <div className="building">
-          {/*{...this.props.bricks}*/}
-        </div>
+        <div className="building"/>
+        {/*{...this.props.bricks}*/}
         <div className="happy-worker"/>
         <div className="logo-line"/>
         <div className="name">CALIMA</div>
