@@ -20,7 +20,7 @@ export class LandingSection extends Component<{ sand: JSX.Element[]}> {
           </div>
           <div className="happy-worker"/>
           <div className="logo-line"/>
-          <div className="name">KALIMA</div>
+          <div className="name">CALIMA</div>
         </div>
       </section>
     )
