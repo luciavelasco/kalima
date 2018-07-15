@@ -2,7 +2,7 @@ import * as React from 'react'
 import { Component } from 'react'
 import './app.css'
 import { SandParticle } from './particles/Sand'
-import { LandingPage } from './LandingPage'
+import { LandingSection } from './LandingSection'
 
 class App extends Component<{}, { sand: JSX.Element[], bricks: JSX.Element[] }> {
   constructor(props: any) {
@@ -13,7 +13,7 @@ class App extends Component<{}, { sand: JSX.Element[], bricks: JSX.Element[] }> 
   public render() {
     return (
       <div className="App">
-          <LandingPage sand={this.state.sand}/>
+          <LandingSection sand={this.state.sand}/>
       </div>
     )
   }

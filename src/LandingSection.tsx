@@ -1,8 +1,8 @@
 import * as React from 'react'
 import { Component } from 'react'
-import './landingPage.css'
+import './landingSection.css'
 
-export class LandingPage extends Component<{ sand: JSX.Element[]}> {
+export class LandingSection extends Component<{ sand: JSX.Element[]}> {
   constructor(props: any) {
     super(props)
     this.state = { sand: [] }
@@ -10,7 +10,7 @@ export class LandingPage extends Component<{ sand: JSX.Element[]}> {
 
   public render() {
     return (
-      <div className="landing-page">
+      <section className="landing-section">
         <div className="banner">
           <div className="sand">
             {...this.props.sand}
@@ -22,7 +22,7 @@ export class LandingPage extends Component<{ sand: JSX.Element[]}> {
           <div className="logo-line"/>
           <div className="name">KALIMA</div>
         </div>
-      </div>
+      </section>
     )
   }
 }
