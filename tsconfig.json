@@ -1,30 +1,32 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
-    "outDir": "build/dist",
-    "module": "esnext",
-    "target": "es5",
-    "lib": ["es6", "dom"],
-    "sourceMap": true,
-    "allowJs": true,
-    "jsx": "react",
+    "module": "commonjs",
     "moduleResolution": "node",
-    "rootDir": "src",
-    "forceConsistentCasingInFileNames": true,
-    "noImplicitReturns": true,
-    "noImplicitThis": true,
+    "target": "es5",
+    "lib": ["es6", "esnext.asynciterable", "dom"],
+    "alwaysStrict": true,
     "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": false,
     "strictNullChecks": true,
-    "suppressImplicitAnyIndexErrors": true,
-    "noUnusedLocals": true
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "suppressExcessPropertyErrors": false,
+    "experimentalDecorators": true,
+    "jsx": "react",
+    "sourceMap": true,
+    "inlineSources": true
   },
+  "compileOnSave": true,
+  "buildOnSave": true,
   "exclude": [
+    ".idea",
     "node_modules",
-    "build",
-    "scripts",
-    "acceptance-tests",
-    "webpack",
-    "jest",
-    "src/setupTests.ts"
+    "assets",
+    "public",
+    "coverage",
+    "docs",
+    "tmp",
+    "uploads"
   ]
 }
