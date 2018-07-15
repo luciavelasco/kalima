@@ -22,6 +22,6 @@ yarn-debug.log*
 yarn-error.log*
 
 # typescript generated files
-src/**/**.js
-src/**/**.d.ts
-src/**/**.js.map
+src/**/*.js
+src/**/*.d.ts
+src/**/*.map
